@@ -1,13 +1,63 @@
-# myls
-myls Linux program, ls like
-program name is xls, version 1.0.0
-under supervision of Eng. Reda Maher at STMicroelectronics
----------------------------------------------------------------
-it supports many features as ls
-- shows file inode number
-- shows number of hard links of the file
-- shows file size
-- shows file permissions and special permissions
-- shows file type (regular file, block device file, directory, symbolic link, etc.)
-- shows modification time stamp
-- it has intuitive colors to distinguish between different files types
+# `xls` Linux Program 
+
+This repository contains an implementation of the `ls` command, replicating the functionality of the GNU `ls` command in Bash. The program provides detailed information about files and directories, including attributes and metadata. It also features intuitive color coding to distinguish between different file types.
+
+---
+
+## Features
+
+- **Inode Number**: Displays the inode number of each file.
+- **Hard Link Count**: Shows the number of hard links associated with each file.
+- **File Size**: Displays the size of each file in bytes.
+- **File Permissions**: Displays file permissions, including special permissions (setuid, setgid, sticky bit).
+- **File Type**: Identifies file types such as:
+  - Regular files
+  - Directories
+  - Block device files
+  - Character device files
+  - Symbolic links
+  - FIFOs
+  - Sockets
+- **Modification Timestamp**: Shows the last modification time of each file.
+- **Intuitive Colors**: Distinguishes between file types using intuitive colors for improved readability.
+
+These are obtained by passing the right option to the "ls" command
+
+---
+
+## How to Build
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AhmedDesoky14/myls
+   cd myls
+   ```
+2. Compile the program:
+   ```bash
+   make xls
+   make install
+   ```
+
+---
+
+## Usage
+
+Run the program in the terminal
+
+```bash
+xls
+```
+
+---
+
+## Features Highlight
+
+### File Types with Color Coding and Permissions Display
+
+Same as GNU "ls" command
+
+---
+
+## Contact 
+
+For questions or suggestions, please contact me, Ahmed Desoky at "ahmed0201150@gmail.com".
