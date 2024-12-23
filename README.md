@@ -2,9 +2,9 @@
 
 This repository contains an implementation of the `ls` command, replicating the functionality of the GNU `ls` command in Bash. The program provides detailed information about files and directories, including attributes and metadata. It also features intuitive color coding to distinguish between different file types.
 
-## Credits
-This project was part of STMicroelectronics Internship program "Linux System Programming".
-Under supervision of Eng. Reda Maher.
+## Acknowledgment
+
+This project was developed as part of the **STMicroelectronics Internship Program**, **Linux System Programming**, supervised by **Eng. Reda Maher**.
 
 ---
 
